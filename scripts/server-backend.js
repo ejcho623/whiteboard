@@ -31,7 +31,7 @@ function startBackendServer(port) {
     const { accessToken, enableWebdav } = config.backend;
 
     //Expose static folders
-    app.use(express.static(path.join(__dirname, "..", "dist")));
+    app.use(express.static(path.join(__dirname, "..", "public")));
     app.use("/uploads", express.static(path.join(__dirname, "..", "public", "uploads")));
 
     /**

@@ -10,7 +10,7 @@ const config = {
         "pdf.worker": "pdfjs-dist/build/pdf.worker.entry",
     },
     output: {
-        path: path.join(__dirname, "..", "dist"),
+        path: path.join(__dirname, "..", "public"),
         filename: "[name]-[hash].js",
     },
     resolve: {

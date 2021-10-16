@@ -15,6 +15,7 @@ pids
 
 # Compilation result
 /dist
+/build
 
 # upload folder, etc.
 /public/uploads
